@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "cityId": "shenzhen",
+  "scenario": "mvp-phase1",
+  "dataVersion": "v1-2026-11-02",
+  "facilitySetHash": "sha256:e9c01027c2203ebd800b25a9665e703a3efeb4b315c4177f881215a5e1ba44c7",
+  "activeTransitFacilityIds": [
+    13,
+    25,
+    29,
+    53,
+    57,
+    88,
+    105,
+    132,
+    134,
+    139,
+    261,
+    265,
+    268,
+    270,
+    282,
+    288,
+    312,
+    315,
+    333
+  ],
+  "lineRefs": [1, 4],
+  "data": {
+    "manifest": {
+      "path": "apps/game/assets/cities/shenzhen_city_data_manifest.json",
+      "sha256": "sha256:0a7af55809b9e6a254244f397aecb4aa35240c465a931bd8a2e9b4ff8c0ea6b0"
+    },
+    "demandInputs": {
+      "path": "apps/game/assets/cities/shenzhen_demand_inputs.json",
+      "sha256": "sha256:5d7fdab233bfbab53aff9888bb15272562232cf7ad52b0f4b675dd0896362157"
+    }
+  }
+}
