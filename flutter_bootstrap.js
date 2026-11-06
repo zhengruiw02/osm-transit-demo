@@ -52,6 +52,6 @@ _flutter.loader.load({
     await appRunner.runApp();
   },
   serviceWorkerSettings: {
-    serviceWorkerVersion: "253526034" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */
+    serviceWorkerVersion: "135163556" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */
   }
 });
