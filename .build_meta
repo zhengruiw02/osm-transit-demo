@@ -1,4 +1,5 @@
-commit=8e01a16
+commit=2714ebb
+version=1.7.8.2+16
 scope=public-demo
 base_href=/osm-transit-demo/
-built_at=2026-11-09T03:23:40Z
+built_at=2026-11-09T12:19:48Z
