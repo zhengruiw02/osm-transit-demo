@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "id": "hk",
+  "epoch": "2026-01-01",
+  "updatedAt": "2026-11-09",
+  "validYearStart": 2026,
+  "validYearEnd": 2030,
+  "attribution": "Hong Kong general holidays from the GovHK 2026 announcement; Easter and lunar rules use the Hong Kong Observatory calendar reference.",
+  "sources": [
+    {
+      "name": "香港特别行政区政府 2026年公众假期",
+      "url": "https://www.gov.hk/tc/about/abouthk/holiday/2026.htm",
+      "licence": "public notice",
+      "sourceDate": "2025-11"
+    },
+    {
+      "name": "香港天文台 公历农历对照表",
+      "url": "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "licence": "reference data",
+      "sourceDate": "2026-11-09"
+    }
+  ],
+  "holidayBorderInboundShare": 0.7,
+  "foreignBorderInboundShare": 0.3,
+  "fixedHolidays": [
+    {
+      "month": 1,
+      "day": 1,
+      "name": "元旦",
+      "shiftSundayToNextDay": true
+    },
+    {
+      "month": 5,
+      "day": 1,
+      "name": "劳动节",
+      "shiftSundayToNextDay": true
+    },
+    {
+      "month": 7,
+      "day": 1,
+      "name": "香港特别行政区成立纪念日",
+      "shiftSundayToNextDay": true
+    },
+    {
+      "month": 10,
+      "day": 1,
+      "name": "国庆日",
+      "shiftSundayToNextDay": true
+    },
+    {
+      "month": 12,
+      "day": 25,
+      "name": "圣诞节",
+      "shiftSundayToNextDay": true
+    },
+    {
+      "month": 12,
+      "day": 26,
+      "name": "圣诞节翌日",
+      "shiftSundayToNextDay": true
+    }
+  ],
+  "easterHolidays": [
+    {
+      "offset": -2,
+      "name": "耶稣受难节"
+    },
+    {
+      "offset": -1,
+      "name": "耶稣受难节翌日"
+    },
+    {
+      "offset": 1,
+      "name": "复活节星期一"
+    }
+  ],
+  "lunarNewYearHolidays": [
+    {
+      "offset": 0,
+      "name": "农历年初一"
+    },
+    {
+      "offset": 1,
+      "name": "农历年初二"
+    },
+    {
+      "offset": 2,
+      "name": "农历年初三"
+    }
+  ],
+  "lunarFestivals": [
+    {
+      "month": 4,
+      "day": 8,
+      "name": "佛诞",
+      "shiftSundayToNextDay": true
+    },
+    {
+      "month": 5,
+      "day": 5,
+      "name": "端午节",
+      "shiftSundayToNextDay": true
+    },
+    {
+      "month": 8,
+      "day": 16,
+      "name": "中秋节翌日",
+      "shiftSundayToNextDay": true
+    },
+    {
+      "month": 9,
+      "day": 9,
+      "name": "重阳节",
+      "shiftSundayToNextDay": true
+    }
+  ],
+  "qingming": {
+    "name": "清明节",
+    "shiftSundayToNextDay": true
+  },
+  "springFestivalDates": {
+    "2026": "2026-02-17",
+    "2027": "2027-02-06",
+    "2028": "2028-01-26",
+    "2029": "2029-02-13",
+    "2030": "2030-02-03"
+  },
+  "holidays": [
+    {
+      "date": "2026-01-01",
+      "name": "元旦"
+    },
+    {
+      "date": "2026-02-17",
+      "name": "农历年初一"
+    },
+    {
+      "date": "2026-02-18",
+      "name": "农历年初二"
+    },
+    {
+      "date": "2026-02-19",
+      "name": "农历年初三"
+    },
+    {
+      "date": "2026-04-03",
+      "name": "耶稣受难节"
+    },
+    {
+      "date": "2026-04-04",
+      "name": "耶稣受难节翌日"
+    },
+    {
+      "date": "2026-04-06",
+      "name": "复活节星期一"
+    },
+    {
+      "date": "2026-04-07",
+      "name": "清明节翌日"
+    },
+    {
+      "date": "2026-05-01",
+      "name": "劳动节"
+    },
+    {
+      "date": "2026-05-25",
+      "name": "佛诞翌日"
+    },
+    {
+      "date": "2026-06-19",
+      "name": "端午节"
+    },
+    {
+      "date": "2026-07-01",
+      "name": "香港特别行政区成立纪念日"
+    },
+    {
+      "date": "2026-09-26",
+      "name": "中秋节翌日"
+    },
+    {
+      "date": "2026-10-01",
+      "name": "国庆日"
+    },
+    {
+      "date": "2026-10-19",
+      "name": "重阳节翌日"
+    },
+    {
+      "date": "2026-12-25",
+      "name": "圣诞节"
+    },
+    {
+      "date": "2026-12-26",
+      "name": "圣诞节翌日"
+    }
+  ],
+  "makeupWorkdays": [],
+  "springFestival": {
+    "cny": "2026-02-17",
+    "rampDays": 15,
+    "holidayDays": 7,
+    "recoveryDays": 7
+  }
+}

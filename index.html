@@ -39,6 +39,43 @@
   <link href="vendor/maplibre-gl.css" rel="stylesheet">
   <script src="vendor/pmtiles.js"></script>
   <script src="vendor/maplibre-gl.js"></script>
+  <!--
+    MapLibre 5.24.0 evaluates the upstream OpenFreeMap road-shield filters with
+    `["<=", ["get", "ref_length"], 6]`. HK/Shenzhen features omit that property,
+    so the worker logs the non-fatal
+    "Expected value to be of type number, but found null instead." twice per
+    style load. Remove the three US-only shield layers synchronously on
+    `style.load`; the Flutter onStyleLoaded callback runs a tick later, after
+    the first render has already evaluated them. This is a narrow app-side
+    suppression, not a patched vendored JS bundle.
+  -->
+  <script>
+    (function () {
+      if (!window.maplibregl || !maplibregl.Map) return;
+      const UpstreamMap = maplibregl.Map;
+      const warningLayerIds = [
+        'highway-shield-non-us',
+        'highway-shield-us-interstate',
+        'road_shield_us',
+      ];
+      function PatchedMap(options) {
+        const map = new UpstreamMap(options);
+        map.on('style.load', function () {
+          warningLayerIds.forEach(function (id) {
+            try {
+              if (map.getLayer(id)) map.removeLayer(id);
+            } catch (_) {
+              // A style replacement can be in flight; the next load retries.
+            }
+          });
+        });
+        return map;
+      }
+      Object.setPrototypeOf(PatchedMap, UpstreamMap);
+      PatchedMap.prototype = UpstreamMap.prototype;
+      maplibregl.Map = PatchedMap;
+    })();
+  </script>
 
   <style>
     html, body {
