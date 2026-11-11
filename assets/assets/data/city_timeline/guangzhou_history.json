@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "cityId": "guangzhou",
+  "cityName": "广州",
+  "dataVersion": "history-2026-11-07",
+  "startYear": 1990,
+  "endYear": 2025,
+  "eras": [
+    {
+      "id": "gz-1990-1996",
+      "name": "老城与天河起步",
+      "startYear": 1990,
+      "endYear": 1996,
+      "summary": "GDP 319.60 → 1,484.90 亿元；年末全社会从业人员 341.15 万（1990）→ 407.78 万（1995）；1990 年代常住人口序列缺失，未用户籍人口替代。",
+      "color": "#6FC2A4",
+      "quality": "derived"
+    },
+    {
+      "id": "gz-1997-2003",
+      "name": "地铁 1 号线 / 城市东进",
+      "startYear": 1997,
+      "endYear": 2003,
+      "summary": "1997 年地铁 1 号线首通段开通；GDP 1,701.30 → 3,869.10 亿元；2000～2003 年过夜旅游者 2,300 → 2,370 万人次。",
+      "color": "#7FB2E5",
+      "quality": "derived"
+    },
+    {
+      "id": "gz-2004-2009",
+      "name": "新白云机场 / 亚运前建设",
+      "startYear": 2004,
+      "endYear": 2009,
+      "summary": "2004 年新白云国际机场转场；GDP 4,562.99 → 9,357.33 亿元；2004 年公共汽电车+轨道交通 21.29 亿人次。",
+      "color": "#E4A15A",
+      "quality": "derived"
+    },
+    {
+      "id": "gz-2010-2014",
+      "name": "亚运会 / 地铁网络扩张",
+      "startYear": 2010,
+      "endYear": 2014,
+      "summary": "2010 年广州亚运会；GDP 10,881.30 → 16,528.19 亿元；常住人口 1,270.96 万（2010）。",
+      "color": "#C7A2E8",
+      "quality": "derived"
+    },
+    {
+      "id": "gz-2015-2019",
+      "name": "南沙自贸区 / 大湾区",
+      "startYear": 2015,
+      "endYear": 2019,
+      "summary": "2015 年南沙自贸区挂牌；GDP 17,602.12 → 24,381.78 亿元；地铁客运量 2017 年 28.03 亿 → 2019 年 33.06 亿人次。",
+      "color": "#6FC2A4",
+      "quality": "derived"
+    },
+    {
+      "id": "gz-2020-2022",
+      "name": "COVID-19 冲击",
+      "startYear": 2020,
+      "endYear": 2022,
+      "summary": "地铁客运量 2020 年 24.14 亿、2022 年 23.58 亿人次；GDP 25,604.26 → 29,471.41 亿元；2020 年常住人口 1,874.03 万。",
+      "color": "#E4572E",
+      "quality": "derived"
+    },
+    {
+      "id": "gz-2023-2025",
+      "name": "复苏 / 湾区网络",
+      "startYear": 2023,
+      "endYear": 2025,
+      "summary": "地铁客运量 2023 年 31.34 亿 → 2025 年 34.06 亿人次；GDP 30,723.56 → 32,039.46 亿元；2025 年常住人口 1,910.10 万。",
+      "color": "#6FC2A4",
+      "quality": "derived"
+    }
+  ],
+  "events": [
+    {
+      "id": "gz-1990-baseline",
+      "year": 1990,
+      "title": "1990 年基线：老城与天河起步",
+      "summary": "1990 年广州 GDP 319.60 亿元、年末全社会从业人员 341.15 万、户籍人口 594.25 万；常住人口未在 2025 年鉴主要年份表中列出。",
+      "category": "economy",
+      "sourceName": "广州统计年鉴2025",
+      "sourceUrl": "https://tjj.gz.gov.cn/datav/admin/home/www_nj/2025/index.html",
+      "quality": "derived"
+    },
+    {
+      "id": "gz-1997-metro-line1",
+      "year": 1997,
+      "date": "1997-06-28",
+      "title": "广州地铁 1 号线首通段开通",
+      "summary": "1 号线首通段建成开通试运营，广州进入地铁时代；1997 年 GDP 1,701.30 亿元。",
+      "category": "transport",
+      "sourceName": "广州市人民政府：广州十一号线开通（回顾1号线）",
+      "sourceUrl": "https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_10045280.html",
+      "quality": "official"
+    },
+    {
+      "id": "gz-2004-airport",
+      "year": 2004,
+      "date": "2004-08-05",
+      "title": "广州新白云国际机场转场运营",
+      "summary": "新白云国际机场启用；2004 年公共汽电车+轨道交通客运量 21.29 亿人次，过夜旅游者 2,674.71 万人次。",
+      "category": "opening",
+      "sourceName": "广州白云国际机场",
+      "sourceUrl": "https://www.gbiac.net/",
+      "quality": "official"
+    },
+    {
+      "id": "gz-2010-asian-games",
+      "year": 2010,
+      "title": "2010 年广州亚运会与地铁网络扩张",
+      "summary": "亚运会在广州举行；2010 年 GDP 10,881.30 亿元，常住人口 1,270.96 万；地铁新线集中开通。",
+      "category": "opening",
+      "sourceName": "广州市人民政府",
+      "sourceUrl": "https://www.gz.gov.cn/",
+      "quality": "official"
+    },
+    {
+      "id": "gz-2015-nansha",
+      "year": 2015,
+      "date": "2015-04-21",
+      "title": "中国（广东）自由贸易试验区南沙片区挂牌",
+      "summary": "南沙自贸区挂牌；2015 年 GDP 17,602.12 亿元，常住人口 1,594.95 万。",
+      "category": "policy",
+      "sourceName": "广州市南沙区人民政府",
+      "sourceUrl": "https://www.gzns.gov.cn/",
+      "quality": "official"
+    },
+    {
+      "id": "gz-2019-gba",
+      "year": 2019,
+      "date": "2019-02-18",
+      "title": "《粤港澳大湾区发展规划纲要》发布",
+      "summary": "纲要提出以广州等城市为核心引擎；2019 年广州地铁客运量 33.06 亿人次。",
+      "category": "policy",
+      "sourceName": "中国政府网",
+      "sourceUrl": "https://www.gov.cn/zhengce/2019-02/18/content_5366593.htm",
+      "quality": "official"
+    },
+    {
+      "id": "gz-2020-covid",
+      "year": 2020,
+      "title": "COVID-19：地铁客运量降至 24.14 亿人次",
+      "summary": "2020 年地铁客运量 24.14 亿人次，低于 2019 年的 33.06 亿；GDP 名义值 25,604.26 亿元。",
+      "category": "crisis",
+      "sourceName": "广州地铁集团有限公司2023年度跟踪评级报告",
+      "sourceUrl": "http://static.sse.com.cn/disclosure/bond/announcement/corporate/c/new/2023-06-16/139185_20230616_YPB0.pdf",
+      "quality": "derived"
+    },
+    {
+      "id": "gz-2022-covid",
+      "year": 2022,
+      "title": "疫情反复：地铁客运量 23.58 亿人次",
+      "summary": "2022 年地铁客运量 23.58 亿人次、日均 646.01 万人次；GDP 29,471.41 亿元。",
+      "category": "crisis",
+      "sourceName": "广州市人民政府：广州地铁去年运客23.58亿人次",
+      "sourceUrl": "https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_9051814.html",
+      "quality": "derived"
+    },
+    {
+      "id": "gz-2023-recovery",
+      "year": 2023,
+      "title": "客流恢复：地铁客运量 31.34 亿人次",
+      "summary": "2023 年地铁客运量 31.34 亿人次，同比增长约 32.7%；GDP 30,723.56 亿元。",
+      "category": "economy",
+      "sourceName": "城市轨道交通2023年度统计和分析报告",
+      "sourceUrl": "https://infosharingp2-oss.camet.org.cn/u/cms/www/202403/28125736mgzp.pdf",
+      "quality": "derived"
+    },
+    {
+      "id": "gz-2025-latest",
+      "year": 2025,
+      "title": "2025 年：地铁 34.06 亿人次，GDP 32,039.46 亿元",
+      "summary": "2025 年末常住人口 1,910.10 万；GDP 32,039.46 亿元、人均 168,279 元；城市公共交通 45.38 亿人次，其中地铁 34.06 亿人次；过夜旅游者 6,128.99 万人次。",
+      "category": "transport",
+      "sourceName": "2025年广州市国民经济和社会发展统计公报",
+      "sourceUrl": "http://tjj.gz.gov.cn/stats_newtjyw/tjsj/tjgb/qstjgb/content/post_10800227.html",
+      "quality": "derived"
+    }
+  ],
+  "poiAnchors": [
+    {
+      "id": "gz-metro-line1-1997",
+      "year": 1997,
+      "name": "广州地铁 1 号线首通段",
+      "category": "transport",
+      "sourceName": "广州市人民政府：广州十一号线开通（回顾1号线）",
+      "sourceUrl": "https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_10045280.html",
+      "quality": "official",
+      "note": "线路级锚点；首通段与后续延伸段开通时间不同，不代表全线所有车站同一天开通。"
+    },
+    {
+      "id": "gz-airport-2004",
+      "year": 2004,
+      "name": "广州新白云国际机场",
+      "category": "transport",
+      "sourceName": "广州白云国际机场",
+      "sourceUrl": "https://www.gbiac.net/",
+      "quality": "official",
+      "note": "机场转场锚点；不代表机场周边 POI 的历史数量。"
+    },
+    {
+      "id": "gz-canton-tower-2010",
+      "year": 2010,
+      "name": "广州塔",
+      "category": "landmark",
+      "sourceName": "广州塔",
+      "sourceUrl": "https://www.cantontower.com/",
+      "quality": "official",
+      "note": "地标锚点；不代表周边 POI 的历史数量。"
+    },
+    {
+      "id": "gz-haixinsha-2010",
+      "year": 2010,
+      "name": "海心沙亚运公园",
+      "category": "landmark",
+      "sourceName": "广州市人民政府",
+      "sourceUrl": "https://www.gz.gov.cn/",
+      "quality": "official",
+      "note": "事件/场馆锚点；不代表周边 POI 的历史数量。"
+    },
+    {
+      "id": "gz-library-2013",
+      "year": 2013,
+      "name": "广州图书馆新馆",
+      "category": "landmark",
+      "sourceName": "广州图书馆",
+      "sourceUrl": "https://www.gzlib.org.cn/",
+      "quality": "official",
+      "note": "公共设施锚点；不代表周边 POI 的历史数量。"
+    },
+    {
+      "id": "gz-nansha-2015",
+      "year": 2015,
+      "name": "南沙自贸区",
+      "category": "policy",
+      "sourceName": "广州市南沙区人民政府",
+      "sourceUrl": "https://www.gzns.gov.cn/",
+      "quality": "official",
+      "note": "政策/区域锚点；不代表周边 POI 的历史数量。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "gz-yearbook-2025",
+      "name": "广州统计年鉴2025",
+      "url": "https://tjj.gz.gov.cn/datav/admin/home/www_nj/2025/index.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "gz-bulletin-2025",
+      "name": "2025年广州市国民经济和社会发展统计公报",
+      "url": "http://tjj.gz.gov.cn/stats_newtjyw/tjsj/tjgb/qstjgb/content/post_10800227.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "gz-metro1",
+      "name": "广州市人民政府：广州十一号线开通（回顾1号线）",
+      "url": "https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_10045280.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "gz-airport",
+      "name": "广州白云国际机场",
+      "url": "https://www.gbiac.net/",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "gz-nansha",
+      "name": "广州市南沙区人民政府",
+      "url": "https://www.gzns.gov.cn/",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "gz-gba",
+      "name": "中国政府网：粤港澳大湾区发展规划纲要",
+      "url": "https://www.gov.cn/zhengce/2019-02/18/content_5366593.htm",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "gz-metro2022",
+      "name": "广州市人民政府：广州地铁去年运客23.58亿人次",
+      "url": "https://www.gz.gov.cn/zwfw/zxfw/jtfw/content/post_9051814.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "gz-camet2023",
+      "name": "城市轨道交通2023年度统计和分析报告",
+      "url": "https://infosharingp2-oss.camet.org.cn/u/cms/www/202403/28125736mgzp.pdf",
+      "retrievedAt": "2026-11-07"
+    }
+  ],
+  "disclaimers": [
+    "阶段划分为研究性叙事分段，不是官方历史分期。",
+    "历史 POI 锚点仅覆盖有公开日期的地标/线路/机场/大学等，不代表完整 POI 数量，也不代表周边 POI 的历史数量。",
+    "事件标注只陈述公开事实与统计数值，不表示因果关系。",
+    "历史数据止于 2025 年，不做 2026 年以后的外推。"
+  ]
+}

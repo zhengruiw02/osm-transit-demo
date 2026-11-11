@@ -25,7 +25,10 @@
     315,
     333
   ],
-  "lineRefs": [1, 4],
+  "lineRefs": [
+    1,
+    4
+  ],
   "data": {
     "manifest": {
       "path": "apps/game/assets/cities/shenzhen_city_data_manifest.json",
@@ -33,7 +36,7 @@
     },
     "demandInputs": {
       "path": "apps/game/assets/cities/shenzhen_demand_inputs.json",
-      "sha256": "sha256:5d7fdab233bfbab53aff9888bb15272562232cf7ad52b0f4b675dd0896362157"
+      "sha256": "sha256:40ae8be1c3e8449c7c9ab1f4856741773fab415a0cafc40267b35054b65579ef"
     }
   }
 }

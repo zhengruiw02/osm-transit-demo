@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "cityId": "hongkong",
+  "cityName": "香港",
+  "dataVersion": "history-2026-11-07",
+  "startYear": 1990,
+  "endYear": 2025,
+  "eras": [
+    {
+      "id": "hk-1990-1997",
+      "name": "过渡期 / 机场核心计划",
+      "startYear": 1990,
+      "endYear": 1997,
+      "summary": "人口 570.45 → 648.93 万；GDP 5,992.56 → 13,730.83 亿港元；1997 年公共交通 38.95 亿人次。",
+      "color": "#7FB2E5",
+      "quality": "derived"
+    },
+    {
+      "id": "hk-1998-2003",
+      "name": "亚洲金融危机 / SARS",
+      "startYear": 1998,
+      "endYear": 2003,
+      "summary": "1998 年 GDP 13,080.74 亿港元，低于 1997 年；2003 年 GDP 12,566.69 亿港元、公共交通 38.20 亿人次。",
+      "color": "#E4A15A",
+      "quality": "derived"
+    },
+    {
+      "id": "hk-2004-2018",
+      "name": "自由行 / 旅客高峰",
+      "startYear": 2004,
+      "endYear": 2018,
+      "summary": "访港旅客从 2004 年 2,181.06 万增至 2018 年 6,514.76 万；2018 年公共交通 46.97 亿人次。",
+      "color": "#6FC2A4",
+      "quality": "derived"
+    },
+    {
+      "id": "hk-2019-2022",
+      "name": "社会事件 + COVID",
+      "startYear": 2019,
+      "endYear": 2022,
+      "summary": "访港旅客从 2019 年 5,591.26 万跌至 2022 年 60.46 万；2020 年公共交通 32.68 亿人次。",
+      "color": "#E4572E",
+      "quality": "derived"
+    },
+    {
+      "id": "hk-2023-2025",
+      "name": "通关复苏",
+      "startYear": 2023,
+      "endYear": 2025,
+      "summary": "访港旅客 2023 年 3,400.00 万、2025 年 4,989.48 万，仍低于 2018 年峰值；2025 年公共交通 42.77 亿人次。",
+      "color": "#C7A2E8",
+      "quality": "derived"
+    }
+  ],
+  "events": [
+    {
+      "id": "hk-handover-1997",
+      "year": 1997,
+      "date": "1997-07-01",
+      "title": "香港回归，香港特别行政区成立",
+      "summary": "1997 年 7 月 1 日，中华人民共和国香港特别行政区成立。",
+      "category": "policy",
+      "sourceName": "香港年报 1997",
+      "sourceUrl": "https://www.yearbook.gov.hk/1997/ch2/c2a.htm",
+      "quality": "official"
+    },
+    {
+      "id": "hk-airport-1998",
+      "year": 1998,
+      "date": "1998-07-06",
+      "title": "香港国际机场在赤鱲角启用",
+      "summary": "新机场于 1998 年 7 月 6 日开始运作，取代启德机场。",
+      "category": "transport",
+      "sourceName": "香港机场管理局：关于我们",
+      "sourceUrl": "https://www.hongkongairport.com/tc/about-us/",
+      "quality": "official"
+    },
+    {
+      "id": "hk-afc-1998",
+      "year": 1998,
+      "title": "亚洲金融危机：名义 GDP 低于 1997 年",
+      "summary": "1998 年 GDP 13,080.74 亿港元，低于 1997 年的 13,730.83 亿港元；公共交通 38.63 亿人次。",
+      "category": "crisis",
+      "sourceName": "香港政府统计处表 310-31001",
+      "sourceUrl": "https://www.censtatd.gov.hk/en/web_table.html?id=310-31001",
+      "quality": "derived"
+    },
+    {
+      "id": "hk-sars-2003",
+      "year": 2003,
+      "title": "SARS：公共卫生与客流冲击",
+      "summary": "2003 年香港爆发严重急性呼吸系统综合症（SARS）；当年 GDP 12,566.69 亿港元、公共交通 38.20 亿人次。",
+      "category": "crisis",
+      "sourceName": "香港卫生防护中心：严重急性呼吸系统综合症",
+      "sourceUrl": "https://www.chp.gov.hk/tc/healthtopics/content/24/47.html",
+      "quality": "official"
+    },
+    {
+      "id": "hk-rail-merger-2007",
+      "year": 2007,
+      "date": "2007-12-02",
+      "title": "两铁合并，港铁公司接手九铁网络",
+      "summary": "2007 年 12 月 2 日两铁合并完成；铁路转乘计次方式随之改变，跨 2007 年比较需谨慎。",
+      "category": "transport",
+      "sourceName": "港铁公司 2007 年年报",
+      "sourceUrl": "https://www.mtr.com.hk/archive/corporate/ch/investor/2007frpt_c/2007frpt_full_c.pdf",
+      "quality": "official"
+    },
+    {
+      "id": "hk-hsr-2018",
+      "year": 2018,
+      "date": "2018-09-23",
+      "title": "广深港高铁香港段开通",
+      "summary": "高铁香港段于 2018 年 9 月 23 日投入服务，接入国家高速铁路网络。",
+      "category": "transport",
+      "sourceName": "香港政府新闻公报",
+      "sourceUrl": "https://www.info.gov.hk/gia/general/201809/22/P2018092200512.htm",
+      "quality": "official"
+    },
+    {
+      "id": "hk-hzmb-2018",
+      "year": 2018,
+      "date": "2018-10-24",
+      "title": "港珠澳大桥开通",
+      "summary": "港珠澳大桥于 2018 年 10 月 24 日上午 9 时正式通车营运。",
+      "category": "transport",
+      "sourceName": "香港政府新闻公报",
+      "sourceUrl": "https://www.info.gov.hk/gia/general/201810/22/P2018102200543.htm",
+      "quality": "official"
+    },
+    {
+      "id": "hk-visitors-2018",
+      "year": 2018,
+      "title": "访港旅客达到 6,514.76 万人次",
+      "summary": "2018 年访港旅客 6,514.76 万人次，为 1990–2025 年时间轴中的峰值；公共交通 46.97 亿人次。",
+      "category": "economy",
+      "sourceName": "香港政府统计处表 650-80001",
+      "sourceUrl": "https://www.censtatd.gov.hk/en/web_table.html?id=650-80001",
+      "quality": "derived"
+    },
+    {
+      "id": "hk-covid-2020",
+      "year": 2020,
+      "title": "COVID-19：访港旅客与公共交通下降",
+      "summary": "2020 年访港旅客 356.89 万人次，公共交通 32.68 亿人次；均低于 2019 年。",
+      "category": "crisis",
+      "sourceName": "香港政府统计处表 650-80001",
+      "sourceUrl": "https://www.censtatd.gov.hk/en/web_table.html?id=650-80001",
+      "quality": "derived"
+    },
+    {
+      "id": "hk-covid-2022",
+      "year": 2022,
+      "title": "疫情低谷：访港旅客 60.46 万人次",
+      "summary": "2022 年访港旅客 60.46 万人次，公共交通 35.29 亿人次、地铁 14.70 亿人次。",
+      "category": "crisis",
+      "sourceName": "香港政府统计处表 650-80001",
+      "sourceUrl": "https://www.censtatd.gov.hk/en/web_table.html?id=650-80001",
+      "quality": "derived"
+    },
+    {
+      "id": "hk-reopen-2023",
+      "year": 2023,
+      "date": "2023-02-06",
+      "title": "香港与内地全面通关",
+      "summary": "2023 年 2 月 6 日起香港与内地全面通关，开放全部口岸并取消人数限额。",
+      "category": "policy",
+      "sourceName": "香港政府新闻公报",
+      "sourceUrl": "https://www.info.gov.hk/gia/general/202302/03/P2023020300646.htm",
+      "quality": "official"
+    },
+    {
+      "id": "hk-visitors-2025",
+      "year": 2025,
+      "title": "2025 年访港旅客恢复至 4,989.48 万人次",
+      "summary": "2025 年访港旅客 4,989.48 万人次、公共交通 42.77 亿人次；仍低于 2018 年旅客峰值。",
+      "category": "economy",
+      "sourceName": "香港政府统计处表 650-80001",
+      "sourceUrl": "https://www.censtatd.gov.hk/en/web_table.html?id=650-80001",
+      "quality": "derived"
+    }
+  ],
+  "poiAnchors": [
+    {
+      "id": "hk-airport-1998",
+      "year": 1998,
+      "name": "香港国际机场（赤鱲角）",
+      "category": "transport",
+      "sourceName": "香港机场管理局：关于我们",
+      "sourceUrl": "https://www.hongkongairport.com/tc/about-us/",
+      "quality": "official",
+      "note": "机场启用为已核实锚点；不代表机场周边 POI 的历史数量。"
+    },
+    {
+      "id": "hk-rail-merger-2007",
+      "year": 2007,
+      "name": "两铁合并后的港铁网络",
+      "category": "transport",
+      "sourceName": "港铁公司 2007 年年报",
+      "sourceUrl": "https://www.mtr.com.hk/archive/corporate/ch/investor/2007frpt_c/2007frpt_full_c.pdf",
+      "quality": "official",
+      "note": "网络级锚点；不代表所有车站或换乘设施在同一天启用。"
+    },
+    {
+      "id": "hk-hsr-2018",
+      "year": 2018,
+      "name": "高铁香港西九龙站",
+      "category": "transport",
+      "sourceName": "香港政府新闻公报",
+      "sourceUrl": "https://www.info.gov.hk/gia/general/201809/22/P2018092200512.htm",
+      "quality": "official",
+      "note": "车站启用为已核实锚点；不代表车站周边 POI 的历史数量。"
+    },
+    {
+      "id": "hk-hzmb-2018",
+      "year": 2018,
+      "name": "港珠澳大桥",
+      "category": "transport",
+      "sourceName": "香港政府新闻公报",
+      "sourceUrl": "https://www.info.gov.hk/gia/general/201810/22/P2018102200543.htm",
+      "quality": "official",
+      "note": "大桥开通为已核实锚点；不代表口岸周边 POI 的历史数量。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "hk-csdi-310-31001",
+      "name": "Census and Statistics Department, Table 310-31001",
+      "url": "https://www.censtatd.gov.hk/en/web_table.html?id=310-31001",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "hk-csdi-650-80001",
+      "name": "Census and Statistics Department, Table 650-80001",
+      "url": "https://www.censtatd.gov.hk/en/web_table.html?id=650-80001",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "hk-yearbook-1997",
+      "name": "香港年报 1997",
+      "url": "https://www.yearbook.gov.hk/1997/ch2/c2a.htm",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "hk-airport-about",
+      "name": "香港机场管理局：关于我们",
+      "url": "https://www.hongkongairport.com/tc/about-us/",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "hk-chp-sars",
+      "name": "香港卫生防护中心：严重急性呼吸系统综合症",
+      "url": "https://www.chp.gov.hk/tc/healthtopics/content/24/47.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "hk-mtr-2007-ar",
+      "name": "港铁公司 2007 年年报",
+      "url": "https://www.mtr.com.hk/archive/corporate/ch/investor/2007frpt_c/2007frpt_full_c.pdf",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "hk-gia-hsr",
+      "name": "香港政府新闻公报：广深港高速铁路香港段开通",
+      "url": "https://www.info.gov.hk/gia/general/201809/22/P2018092200512.htm",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "hk-gia-hzmb",
+      "name": "香港政府新闻公报：港珠澳大桥开通",
+      "url": "https://www.info.gov.hk/gia/general/201810/22/P2018102200543.htm",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "hk-gia-reopen",
+      "name": "香港政府新闻公报：香港与内地全面通关",
+      "url": "https://www.info.gov.hk/gia/general/202302/03/P2023020300646.htm",
+      "retrievedAt": "2026-11-07"
+    }
+  ],
+  "disclaimers": [
+    "阶段划分为研究性叙事分段，不是官方历史分期。",
+    "1990 年公共交通和地铁序列为 null；页面不会借用 1991 年数值。",
+    "2007 年两铁合并前后，铁路转乘计次方式改变，跨年比较需谨慎。",
+    "历史 POI 锚点仅覆盖有公开日期的地标，不代表完整 POI 数量。",
+    "事件标注只陈述公开事实与统计数值，不表示因果关系。"
+  ]
+}

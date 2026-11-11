@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "cityId": "beijing",
+  "cityName": "北京",
+  "dataVersion": "history-2026-11-07",
+  "startYear": 1990,
+  "endYear": 2025,
+  "eras": [
+    {
+      "id": "bj-1990-2000",
+      "name": "稳态扩张",
+      "startYear": 1990,
+      "endYear": 2000,
+      "summary": "人口 1,086.00 → 1,363.60 万；GDP 500.80 → 3,328.00 亿元；地铁 3.82 → 4.35 亿人次。",
+      "color": "#7FB2E5",
+      "quality": "derived"
+    },
+    {
+      "id": "bj-2001-2008",
+      "name": "申奥 / 奥运基建",
+      "startYear": 2001,
+      "endYear": 2008,
+      "summary": "2003 年地铁 4.72 亿人次，2008 年 12.17 亿人次；2008 年人口 1,771.00 万、公共交通 59.25 亿人次。",
+      "color": "#E4A15A",
+      "quality": "derived"
+    },
+    {
+      "id": "bj-2009-2019",
+      "name": "网络化 / 人口调控",
+      "startYear": 2009,
+      "endYear": 2019,
+      "summary": "地铁 2010 年 18.46 亿、2019 年 39.62 亿人次；人口 2015 年 2,188.30 万后基本稳定。",
+      "color": "#6FC2A4",
+      "quality": "derived"
+    },
+    {
+      "id": "bj-2020-2022",
+      "name": "疫情冲击",
+      "startYear": 2020,
+      "endYear": 2022,
+      "summary": "公共交通 2020 年 41.20 亿、2022 年 39.89 亿人次；地铁 22.94 → 22.63 亿人次。",
+      "color": "#E4572E",
+      "quality": "derived"
+    },
+    {
+      "id": "bj-2023-2025",
+      "name": "复苏",
+      "startYear": 2023,
+      "endYear": 2025,
+      "summary": "公共交通 2023 年 55.40 亿、2024 年 57.17 亿、2025 年 51.70 亿人次；2025 年地铁 35.70 亿人次。",
+      "color": "#C7A2E8",
+      "quality": "derived"
+    }
+  ],
+  "events": [
+    {
+      "id": "bj-asian-games-1990",
+      "year": 1990,
+      "date": "1990-09-22",
+      "title": "第 11 届亚运会在北京举行",
+      "summary": "1990 年 9 月 22 日至 10 月 7 日，第 11 届亚洲运动会在北京举行；这是中国首次承办亚运会。",
+      "category": "policy",
+      "sourceName": "国家体育总局",
+      "sourceUrl": "https://www.sport.gov.cn/whzx/n5588/c26320583/content.html",
+      "quality": "official"
+    },
+    {
+      "id": "bj-olympic-bid-2001",
+      "year": 2001,
+      "date": "2001-07-13",
+      "title": "北京申奥成功",
+      "summary": "2001 年 7 月 13 日，国际奥委会宣布北京获得 2008 年夏季奥运会举办权。",
+      "category": "policy",
+      "sourceName": "国际奥委会 / Olympics.com",
+      "sourceUrl": "https://www.olympics.com/en/olympic-games/beijing-2008",
+      "quality": "official"
+    },
+    {
+      "id": "bj-olympics-2008",
+      "year": 2008,
+      "date": "2008-08-08",
+      "title": "北京 2008 年夏季奥运会开幕",
+      "summary": "第 29 届夏季奥林匹克运动会于 2008 年 8 月 8 日在北京开幕。",
+      "category": "opening",
+      "sourceName": "国际奥委会 / Olympics.com",
+      "sourceUrl": "https://www.olympics.com/en/olympic-games/beijing-2008",
+      "quality": "official"
+    },
+    {
+      "id": "bj-metro-2008",
+      "year": 2008,
+      "title": "奥运年地铁网络扩张",
+      "summary": "2008 年轨道交通客运量 12.17 亿人次，公共交通 59.25 亿人次；人口 1,771.00 万。",
+      "category": "transport",
+      "sourceName": "北京统计年鉴2025",
+      "sourceUrl": "https://nj.tjj.beijing.gov.cn/nj/main/2025-tjnj/zk/indexch.htm",
+      "quality": "derived"
+    },
+    {
+      "id": "bj-metro-2010",
+      "year": 2010,
+      "title": "轨道交通网络化扩张",
+      "summary": "2010 年轨道交通客运量 18.46 亿人次，公共交通 68.98 亿人次；年末常住人口 1,961.90 万。",
+      "category": "transport",
+      "sourceName": "北京统计年鉴2025",
+      "sourceUrl": "https://nj.tjj.beijing.gov.cn/nj/main/2025-tjnj/zk/indexch.htm",
+      "quality": "derived"
+    },
+    {
+      "id": "bj-population-2015",
+      "year": 2015,
+      "title": "人口规模接近阶段性峰值",
+      "summary": "2015 年末常住人口 2,188.30 万；公共交通 73.84 亿人次、轨道交通 33.24 亿人次。",
+      "category": "economy",
+      "sourceName": "北京统计年鉴2025",
+      "sourceUrl": "https://nj.tjj.beijing.gov.cn/nj/main/2025-tjnj/zk/indexch.htm",
+      "quality": "derived"
+    },
+    {
+      "id": "bj-covid-2020",
+      "year": 2020,
+      "title": "COVID-19：公共交通与地铁客流下降",
+      "summary": "2020 年公共交通客运量 41.20 亿人次、轨道交通 22.94 亿人次，均低于 2019 年。",
+      "category": "crisis",
+      "sourceName": "北京统计年鉴2025",
+      "sourceUrl": "https://nj.tjj.beijing.gov.cn/nj/main/2025-tjnj/zk/indexch.htm",
+      "quality": "derived"
+    },
+    {
+      "id": "bj-winter-olympics-2022",
+      "year": 2022,
+      "date": "2022-02-04",
+      "title": "北京 2022 年冬季奥运会开幕",
+      "summary": "第 24 届冬季奥林匹克运动会于 2022 年 2 月 4 日在北京开幕；北京成为首座举办过夏奥会和冬奥会的城市。",
+      "category": "opening",
+      "sourceName": "国际奥委会 / Olympics.com",
+      "sourceUrl": "https://www.olympics.com/en/olympic-games/beijing-2022",
+      "quality": "official"
+    },
+    {
+      "id": "bj-covid-2022",
+      "year": 2022,
+      "title": "疫情反复：公共交通仍在低位",
+      "summary": "2022 年公共交通客运量 39.89 亿人次、轨道交通 22.63 亿人次；年末常住人口 2,184.30 万。",
+      "category": "crisis",
+      "sourceName": "北京统计年鉴2025",
+      "sourceUrl": "https://nj.tjj.beijing.gov.cn/nj/main/2025-tjnj/zk/indexch.htm",
+      "quality": "derived"
+    },
+    {
+      "id": "bj-recovery-2023",
+      "year": 2023,
+      "title": "客流恢复：公共交通回升至 55.40 亿人次",
+      "summary": "2023 年公共交通客运量 55.40 亿人次、轨道交通 34.54 亿人次；访京游客 32,853.70 万人次。",
+      "category": "economy",
+      "sourceName": "北京统计年鉴2025",
+      "sourceUrl": "https://nj.tjj.beijing.gov.cn/nj/main/2025-tjnj/zk/indexch.htm",
+      "quality": "derived"
+    },
+    {
+      "id": "bj-bulletin-2025",
+      "year": 2025,
+      "title": "2025 年公共交通 51.70 亿人次",
+      "summary": "2025 年 GDP 52,073.4 亿元、公共交通 51.70 亿人次、轨道交通 35.70 亿人次；人均 GDP 约 23.9 万元。",
+      "category": "economy",
+      "sourceName": "北京市2025年国民经济和社会发展统计公报",
+      "sourceUrl": "https://tjj.beijing.gov.cn/tjsj_31433/tjgb_31445/ndgb_31446/202603/t20260326_4566469.html",
+      "quality": "derived"
+    }
+  ],
+  "poiAnchors": [
+    {
+      "id": "bj-birds-nest-2008",
+      "year": 2008,
+      "name": "国家体育场（鸟巢）",
+      "category": "attraction",
+      "sourceName": "国际奥委会 / Olympics.com",
+      "sourceUrl": "https://www.olympics.com/en/olympic-games/beijing-2008",
+      "quality": "derived",
+      "note": "以 2008 年奥运会主场馆作为已核实锚点；不代表场馆周边 POI 的历史数量。"
+    },
+    {
+      "id": "bj-metro-line4-2009",
+      "year": 2009,
+      "name": "北京地铁 4 号线",
+      "category": "transport",
+      "sourceName": "北京京港地铁有限公司",
+      "sourceUrl": "https://www.mtr.bj.cn/",
+      "quality": "official",
+      "note": "线路级锚点；不代表全线所有车站同一天开通。"
+    },
+    {
+      "id": "bj-daxing-airport-2019",
+      "year": 2019,
+      "name": "北京大兴国际机场",
+      "category": "transport",
+      "sourceName": "中国民用航空局",
+      "sourceUrl": "https://www.caac.gov.cn/XWZX/MHYW/201909/t20190926_198820.html",
+      "quality": "official",
+      "note": "机场投运为已核实锚点；不代表机场周边 POI 的历史数量。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "bj-yearbook-2025",
+      "name": "北京统计年鉴2025",
+      "url": "https://nj.tjj.beijing.gov.cn/nj/main/2025-tjnj/zk/indexch.htm",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "bj-bulletin-2025",
+      "name": "北京市2025年国民经济和社会发展统计公报",
+      "url": "https://tjj.beijing.gov.cn/tjsj_31433/tjgb_31445/ndgb_31446/202603/t20260326_4566469.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "bj-sport-asian-games",
+      "name": "国家体育总局：1990 年北京亚运会",
+      "url": "https://www.sport.gov.cn/whzx/n5588/c26320583/content.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "bj-ioc-2008",
+      "name": "国际奥委会 / Olympics.com：Beijing 2008",
+      "url": "https://www.olympics.com/en/olympic-games/beijing-2008",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "bj-ioc-2022",
+      "name": "国际奥委会 / Olympics.com：Beijing 2022",
+      "url": "https://www.olympics.com/en/olympic-games/beijing-2022",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "bj-caac-daxing",
+      "name": "中国民用航空局：北京大兴国际机场正式通航",
+      "url": "https://www.caac.gov.cn/XWZX/MHYW/201909/t20190926_198820.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "bj-mtr-line4",
+      "name": "北京京港地铁有限公司",
+      "url": "https://www.mtr.bj.cn/",
+      "retrievedAt": "2026-11-07"
+    }
+  ],
+  "disclaimers": [
+    "阶段划分为研究性叙事分段，不是官方历史分期。",
+    "2010 年就业口径从年末从业人员切换为常住就业人口，存在水平跳变；本页不用于跨口径比较。",
+    "2024 年起入境游客统计范围含过夜及一日游，与 2023 年及以前不完全可比。",
+    "历史 POI 锚点仅覆盖有公开日期的地标，不代表完整 POI 数量。",
+    "事件标注只陈述公开事实与统计数值，不表示因果关系。"
+  ]
+}

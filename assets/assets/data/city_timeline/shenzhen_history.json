@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "cityId": "shenzhen",
+  "cityName": "深圳",
+  "dataVersion": "history-2026-11-07",
+  "startYear": 1990,
+  "endYear": 2025,
+  "eras": [
+    {
+      "id": "sz-1990-1995",
+      "name": "特区起步",
+      "startYear": 1990,
+      "endYear": 1995,
+      "summary": "人口 167.78 → 449.15 万；GDP 171.67 → 846.85 亿元；公共交通 2.19 → 3.54 亿人次。",
+      "color": "#6FC2A4",
+      "quality": "derived"
+    },
+    {
+      "id": "sz-1996-2004",
+      "name": "制造业扩张 / 地铁前夜",
+      "startYear": 1996,
+      "endYear": 2004,
+      "summary": "2000 年人口 701.24 万、公共交通 4.28 亿人次；2004 年前轨道交通无年度数据。",
+      "color": "#7FB2E5",
+      "quality": "derived"
+    },
+    {
+      "id": "sz-2005-2010",
+      "name": "地铁开通 / 网络化起步",
+      "startYear": 2005,
+      "endYear": 2010,
+      "summary": "首个地铁完整运营年；公共交通 10.74 → 24.43 亿人次，轨道交通 0.58 → 1.63 亿人次。",
+      "color": "#E4A15A",
+      "quality": "derived"
+    },
+    {
+      "id": "sz-2011-2019",
+      "name": "创新驱动 / 网络扩张",
+      "startYear": 2011,
+      "endYear": 2019,
+      "summary": "2015 年人口 1,408.05 万；2019 年公共交通 36.22 亿、轨道交通 20.32 亿人次。",
+      "color": "#C7A2E8",
+      "quality": "derived"
+    },
+    {
+      "id": "sz-2020-2022",
+      "name": "疫情冲击",
+      "startYear": 2020,
+      "endYear": 2022,
+      "summary": "公共交通 2020 年 26.84 亿、2022 年 24.95 亿人次；轨道交通 16.30 → 17.55 亿。",
+      "color": "#E4572E",
+      "quality": "derived"
+    },
+    {
+      "id": "sz-2023-2025",
+      "name": "复苏 / 超大网络",
+      "startYear": 2023,
+      "endYear": 2025,
+      "summary": "公共交通 2023 年 35.33 亿、2025 年 39.87 亿人次；2025 年轨道交通 32.81 亿。",
+      "color": "#6FC2A4",
+      "quality": "derived"
+    }
+  ],
+  "events": [
+    {
+      "id": "sz-1990-baseline",
+      "year": 1990,
+      "title": "1990 年基线：特区起步阶段",
+      "summary": "年末常住人口 167.78 万，GDP 171.67 亿元；公共交通客运量 2.19 亿人次，轨道交通尚无年度数据。",
+      "category": "policy",
+      "sourceName": "深圳统计年鉴2025",
+      "sourceUrl": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tjsj/tjnj/content/post_12647192.html",
+      "quality": "derived"
+    },
+    {
+      "id": "sz-2000-industry",
+      "year": 2000,
+      "title": "制造业与外来人口扩张",
+      "summary": "年末常住人口 701.24 万，GDP 2,240.12 亿元；公共交通客运量 4.28 亿人次。轨道交通当年仍无年度数据。",
+      "category": "economy",
+      "sourceName": "深圳统计年鉴2025",
+      "sourceUrl": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tjsj/tjnj/content/post_12647192.html",
+      "quality": "derived"
+    },
+    {
+      "id": "sz-metro-2004-12-28",
+      "year": 2004,
+      "date": "2004-12-28",
+      "title": "深圳地铁 1 号线、4 号线首通段开通",
+      "summary": "一期工程开通试运营；2005 年是首个完整运营年，轨道交通客运量 0.58 亿人次。",
+      "category": "transport",
+      "sourceName": "深圳市人民政府（深圳故事）",
+      "sourceUrl": "http://www.sz.gov.cn/szstory/202212/content/post_10343762.html",
+      "quality": "official"
+    },
+    {
+      "id": "sz-metro-2010-expansion",
+      "year": 2010,
+      "title": "地铁 2、3 号线首通段开通，网络扩张",
+      "summary": "轨道交通网络继续扩张；2010 年轨道交通客运量 1.63 亿人次，公共交通 24.43 亿人次。",
+      "category": "transport",
+      "sourceName": "深圳市国资委（深圳地铁通车20年）",
+      "sourceUrl": "https://gzw.sz.gov.cn/zwgk/qt/pcgz/content/post_11946130.html",
+      "quality": "official"
+    },
+    {
+      "id": "sz-metro-2019-nine-lines",
+      "year": 2019,
+      "title": "地铁网络达到 9 条线",
+      "summary": "2019 年轨道交通客运量 20.32 亿人次，公共交通 36.22 亿人次；年末常住人口 1,710.40 万。",
+      "category": "transport",
+      "sourceName": "深圳统计年鉴2025",
+      "sourceUrl": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tjsj/tjnj/content/post_12647192.html",
+      "quality": "derived"
+    },
+    {
+      "id": "sz-covid-2020",
+      "year": 2020,
+      "title": "COVID-19：公共交通客运量下降",
+      "summary": "2020 年公共交通客运量 26.84 亿人次，低于 2019 年的 36.22 亿；轨道交通 16.30 亿人次。",
+      "category": "crisis",
+      "sourceName": "深圳统计年鉴2025",
+      "sourceUrl": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tjsj/tjnj/content/post_12647192.html",
+      "quality": "derived"
+    },
+    {
+      "id": "sz-covid-2022",
+      "year": 2022,
+      "title": "疫情反复：公共交通仍在低位",
+      "summary": "2022 年公共交通客运量 24.95 亿人次，轨道交通 17.55 亿人次；年末常住人口 1,766.18 万。",
+      "category": "crisis",
+      "sourceName": "深圳统计年鉴2025",
+      "sourceUrl": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tjsj/tjnj/content/post_12647192.html",
+      "quality": "derived"
+    },
+    {
+      "id": "sz-recovery-2023",
+      "year": 2023,
+      "title": "客流恢复：公共交通回升至 35.33 亿人次",
+      "summary": "2023 年公共交通客运量 35.33 亿人次，仍低于 2019 年的 36.22 亿；轨道交通 27.12 亿人次。",
+      "category": "economy",
+      "sourceName": "深圳统计年鉴2025",
+      "sourceUrl": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tjsj/tjnj/content/post_12647192.html",
+      "quality": "derived"
+    },
+    {
+      "id": "sz-anniversary-2025",
+      "year": 2025,
+      "title": "深圳经济特区建立 45 周年",
+      "summary": "深圳经济特区于 1980 年建立；2025 年为建立 45 周年。",
+      "category": "policy",
+      "sourceName": "深圳市人民政府外事办公室",
+      "sourceUrl": "https://fao.sz.gov.cn/xxgk/zyxw/content/post_1965410.html",
+      "quality": "official"
+    },
+    {
+      "id": "sz-network-2025",
+      "year": 2025,
+      "title": "2025 年公共交通 39.87 亿人次，超过 2019 年",
+      "summary": "2025 年公共交通客运量 39.87 亿人次、轨道交通 32.81 亿人次；年末常住人口 1,824.85 万。",
+      "category": "transport",
+      "sourceName": "深圳市2025年国民经济和社会发展统计公报",
+      "sourceUrl": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tjsj/tjgb/content/post_12805133.html",
+      "quality": "derived"
+    }
+  ],
+  "poiAnchors": [
+    {
+      "id": "sz-airport-1991",
+      "year": 1991,
+      "name": "深圳宝安国际机场通航",
+      "category": "transport",
+      "sourceName": "深圳市人民政府（深圳故事）",
+      "sourceUrl": "http://www.sz.gov.cn/szstory/202303/content/post_10458593.html",
+      "quality": "official",
+      "note": "机场通航为已核实锚点；不代表机场周边 POI 的历史数量。"
+    },
+    {
+      "id": "sz-metro-line1-2004",
+      "year": 2004,
+      "name": "深圳地铁 1 号线首通段",
+      "category": "transport",
+      "sourceName": "深圳市人民政府（深圳故事）",
+      "sourceUrl": "http://www.sz.gov.cn/szstory/202212/content/post_10343762.html",
+      "quality": "official",
+      "note": "线路级锚点；不代表全线所有车站同一天开通。"
+    },
+    {
+      "id": "sz-metro-line4-2004",
+      "year": 2004,
+      "name": "深圳地铁 4 号线首通段",
+      "category": "transport",
+      "sourceName": "深圳市人民政府（深圳故事）",
+      "sourceUrl": "http://www.sz.gov.cn/szstory/202212/content/post_10343762.html",
+      "quality": "official",
+      "note": "线路级锚点；不代表全线所有车站同一天开通。"
+    },
+    {
+      "id": "sz-metro-line2-2010",
+      "year": 2010,
+      "name": "深圳地铁 2 号线首通段",
+      "category": "transport",
+      "sourceName": "深圳市国资委（深圳地铁通车20年）",
+      "sourceUrl": "https://gzw.sz.gov.cn/zwgk/qt/pcgz/content/post_11946130.html",
+      "quality": "official",
+      "note": "线路级锚点；首通段与后续延伸段开通时间不同。"
+    },
+    {
+      "id": "sz-metro-line3-2010",
+      "year": 2010,
+      "name": "深圳地铁 3 号线首通段",
+      "category": "transport",
+      "sourceName": "深圳市国资委（深圳地铁通车20年）",
+      "sourceUrl": "https://gzw.sz.gov.cn/zwgk/qt/pcgz/content/post_11946130.html",
+      "quality": "official",
+      "note": "线路级锚点；首通段与后续延伸段开通时间不同。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "sz-yearbook-2025",
+      "name": "深圳统计年鉴2025",
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tjsj/tjnj/content/post_12647192.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "sz-bulletin-2025",
+      "name": "深圳市2025年国民经济和社会发展统计公报",
+      "url": "https://www.sz.gov.cn/cn/xxgk/zfxxgj/tjsj/tjgb/content/post_12805133.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "sz-story-metro",
+      "name": "深圳市人民政府：十年磨一剑——从无到有的深圳地铁",
+      "url": "http://www.sz.gov.cn/szstory/202212/content/post_10343762.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "sz-story-airport",
+      "name": "深圳市人民政府：深圳宝安国际机场的由来",
+      "url": "http://www.sz.gov.cn/szstory/202303/content/post_10458593.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "sz-gzw-metro-20y",
+      "name": "深圳市国资委：深圳地铁通车20年",
+      "url": "https://gzw.sz.gov.cn/zwgk/qt/pcgz/content/post_11946130.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "sz-fao-anniversary",
+      "name": "深圳市人民政府外事办公室：特区成立年份说明",
+      "url": "https://fao.sz.gov.cn/xxgk/zyxw/content/post_1965410.html",
+      "retrievedAt": "2026-11-07"
+    }
+  ],
+  "disclaimers": [
+    "阶段划分为研究性叙事分段，不是官方历史分期。",
+    "历史 POI 锚点仅覆盖有公开日期的地标，不代表完整 POI 数量。",
+    "事件标注只陈述公开事实与统计数值，不表示因果关系。",
+    "历史数据止于 2025 年，不做 2026 年以后的外推。"
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "cityId": "shanghai",
+  "cityName": "上海",
+  "dataVersion": "history-2026-11-07",
+  "startYear": 1990,
+  "endYear": 2025,
+  "eras": [
+    {
+      "id": "sh-1990-1995",
+      "name": "浦东开发 / 地铁起步",
+      "startYear": 1990,
+      "endYear": 1995,
+      "summary": "常住人口 1,334.00 → 1,414.00 万；GDP 781.66 → 2,535.00 亿元；公共汽电车客运量 54.37 → 51.35 亿人次；1993 年地铁 1 号线首通。",
+      "color": "#6FC2A4",
+      "quality": "derived"
+    },
+    {
+      "id": "sh-1996-2000",
+      "name": "浦东机场 / 网络化前夜",
+      "startYear": 1996,
+      "endYear": 2000,
+      "summary": "GDP 3,004.16 → 4,879.97 亿元；轨道交通 0.89 → 1.36 亿人次；1996 年公共汽电车统计口径发生跳变，公交客流从 51.35 亿降至 23.07 亿人次。",
+      "color": "#7FB2E5",
+      "quality": "derived"
+    },
+    {
+      "id": "sh-2001-2009",
+      "name": "入世与轨道网络扩张",
+      "startYear": 2001,
+      "endYear": 2009,
+      "summary": "GDP 5,348.07 → 16,181.35 亿元；轨道交通 2.83 → 13.18 亿人次；2002 年磁浮示范线通车，2009 年轨道交通线路达到 11 条。",
+      "color": "#E4A15A",
+      "quality": "derived"
+    },
+    {
+      "id": "sh-2010-2015",
+      "name": "世博会 / 网络化运营",
+      "startYear": 2010,
+      "endYear": 2015,
+      "summary": "GDP 18,319.63 → 27,821.63 亿元；轨道交通 18.84 → 30.68 亿人次；2010 年世博会与地铁网络扩张叠加，2013 年上海自贸区挂牌。",
+      "color": "#C7A2E8",
+      "quality": "derived"
+    },
+    {
+      "id": "sh-2016-2019",
+      "name": "超大网络 / 临港新片区",
+      "startYear": 2016,
+      "endYear": 2019,
+      "summary": "GDP 30,963.87 → 40,241.18 亿元；轨道交通 34.01 → 38.84 亿人次；2019 年临港新片区设立。",
+      "color": "#6FC2A4",
+      "quality": "derived"
+    },
+    {
+      "id": "sh-2020-2022",
+      "name": "COVID-19 冲击",
+      "startYear": 2020,
+      "endYear": 2022,
+      "summary": "轨道交通 2020 年 28.32 亿、2022 年 22.79 亿人次；公共汽电车 2020 年 13.65 亿人次；GDP 仍保持名义增长。",
+      "color": "#E4572E",
+      "quality": "derived"
+    },
+    {
+      "id": "sh-2023-2025",
+      "name": "复苏 / 900 公里网络",
+      "startYear": 2023,
+      "endYear": 2025,
+      "summary": "轨道交通 2023 年 36.61 亿、2025 年 37.16 亿人次；公共汽电车 11.06 → 10.07 亿人次；2025 年 GDP 56,708.71 亿元。",
+      "color": "#6FC2A4",
+      "quality": "derived"
+    }
+  ],
+  "events": [
+    {
+      "id": "sh-1990-pudong",
+      "year": 1990,
+      "date": "1990-04-18",
+      "title": "浦东开发开放",
+      "summary": "党中央、国务院宣布开发开放浦东；1990 年上海常住人口 1,334.00 万、GDP 781.66 亿元、公共汽电车客运量 54.37 亿人次。",
+      "category": "policy",
+      "sourceName": "上海市人民政府：浦东新区",
+      "sourceUrl": "https://www.shanghai.gov.cn/pudong/index.html",
+      "quality": "official"
+    },
+    {
+      "id": "sh-1993-metro-line1",
+      "year": 1993,
+      "date": "1993-05-28",
+      "title": "上海地铁 1 号线通车试运营",
+      "summary": "轨道交通 1 号线通车试运营，实现上海轨道交通零的突破；1993 年公共汽电车客运量 55.98 亿人次。",
+      "category": "transport",
+      "sourceName": "上海市人民政府：18号线二期开通（回顾1号线）",
+      "sourceUrl": "https://www.shanghai.gov.cn/nw17239/20260119/3d0f7925181544e589f8894a94b787f7.html",
+      "quality": "official"
+    },
+    {
+      "id": "sh-1999-pudong-airport",
+      "year": 1999,
+      "date": "1999-09-16",
+      "title": "上海浦东国际机场通航",
+      "summary": "浦东国际机场一期工程通航，上海形成虹桥、浦东两场格局；1999 年轨道交通客运量 1.09 亿人次。",
+      "category": "opening",
+      "sourceName": "上海机场（集团）有限公司",
+      "sourceUrl": "https://www.shanghai.gov.cn/nw9820/20200906/0001-9820_1401251.html",
+      "quality": "official"
+    },
+    {
+      "id": "sh-2010-expo",
+      "year": 2010,
+      "date": "2010-05-01",
+      "title": "2010 年上海世博会开幕",
+      "summary": "世博会 5 月 1 日至 10 月 31 日举行；2010 年轨道交通客运量 18.84 亿人次、公共汽电车 28.08 亿人次，合计 46.92 亿人次。",
+      "category": "opening",
+      "sourceName": "上海市人民政府：上海世博会中国馆新闻发布会",
+      "sourceUrl": "https://www.shanghai.gov.cn/nw9822/20200906/0001-9822_447147.html",
+      "quality": "official"
+    },
+    {
+      "id": "sh-2013-ftz",
+      "year": 2013,
+      "date": "2013-09-29",
+      "title": "中国（上海）自由贸易试验区挂牌",
+      "summary": "上海自贸区挂牌成立；2013 年上海 GDP 23,809.37 亿元，轨道交通客运量 25.06 亿人次。",
+      "category": "policy",
+      "sourceName": "上海市人民政府",
+      "sourceUrl": "https://www.shanghai.gov.cn/",
+      "quality": "official"
+    },
+    {
+      "id": "sh-2019-lingang",
+      "year": 2019,
+      "date": "2019-08-20",
+      "title": "中国（上海）自由贸易试验区临港新片区设立",
+      "summary": "临港新片区设立；2019 年轨道交通客运量 38.84 亿人次，为 2020 年前高点。",
+      "category": "policy",
+      "sourceName": "中国（上海）自由贸易试验区临港新片区",
+      "sourceUrl": "https://www.lingang.gov.cn/",
+      "quality": "official"
+    },
+    {
+      "id": "sh-2020-covid",
+      "year": 2020,
+      "title": "COVID-19：轨道交通与公交客流大幅下降",
+      "summary": "2020 年轨道交通客运量 28.32 亿人次，低于 2019 年的 38.84 亿；公共汽电车 13.65 亿人次；GDP 名义值 41,603.87 亿元。",
+      "category": "crisis",
+      "sourceName": "上海统计年鉴2021",
+      "sourceUrl": "https://tjj.sh.gov.cn/tjnj/20220309/0e01088a76754b448de6d608c42dad0f.html",
+      "quality": "derived"
+    },
+    {
+      "id": "sh-2023-recovery",
+      "year": 2023,
+      "title": "客流恢复：轨道交通回升至 36.61 亿人次",
+      "summary": "2023 年轨道交通客运量 36.61 亿人次、公共汽电车 11.06 亿人次，合计 47.67 亿人次；GDP 51,404.47 亿元。",
+      "category": "economy",
+      "sourceName": "上海统计年鉴2025",
+      "sourceUrl": "https://tjj.sh.gov.cn/tjnj/20260302/ab5e54f645fd4184b9e9c3aeef8a1c6c.html",
+      "quality": "derived"
+    },
+    {
+      "id": "sh-2025-latest",
+      "year": 2025,
+      "title": "2025 年：轨道交通 37.16 亿人次，GDP 56,708.71 亿元",
+      "summary": "2025 年末常住人口 2,485.41 万；GDP 56,708.71 亿元；轨道交通 37.16 亿人次、公共汽电车 10.07 亿人次；入境游客 936.02 万人次。",
+      "category": "transport",
+      "sourceName": "2025年上海市国民经济和社会发展统计公报",
+      "sourceUrl": "https://tjj.sh.gov.cn/tjgb/20260330/e0772941e8e041eaaad2df850b44ef98.html",
+      "quality": "derived"
+    }
+  ],
+  "poiAnchors": [
+    {
+      "id": "sh-pudong-1990",
+      "year": 1990,
+      "name": "陆家嘴金融贸易区（浦东开发开放）",
+      "category": "policy",
+      "sourceName": "上海市人民政府：浦东新区",
+      "sourceUrl": "https://www.shanghai.gov.cn/pudong/index.html",
+      "quality": "official",
+      "note": "政策/区域锚点；不代表周边 POI 的历史数量。"
+    },
+    {
+      "id": "sh-metro-line1-1993",
+      "year": 1993,
+      "name": "上海地铁 1 号线首通段",
+      "category": "transport",
+      "sourceName": "上海市人民政府：18号线二期开通（回顾1号线）",
+      "sourceUrl": "https://www.shanghai.gov.cn/nw17239/20260119/3d0f7925181544e589f8894a94b787f7.html",
+      "quality": "official",
+      "note": "线路级锚点；首通段与后续延伸段开通时间不同，不代表全线所有车站同一天开通。"
+    },
+    {
+      "id": "sh-oriental-pearl-1994",
+      "year": 1994,
+      "name": "东方明珠广播电视塔",
+      "category": "landmark",
+      "sourceName": "东方明珠广播电视塔",
+      "sourceUrl": "https://www.orientalpearltower.com/",
+      "quality": "official",
+      "note": "地标锚点；不代表周边 POI 的历史数量。"
+    },
+    {
+      "id": "sh-pudong-airport-1999",
+      "year": 1999,
+      "name": "上海浦东国际机场",
+      "category": "transport",
+      "sourceName": "上海机场（集团）有限公司",
+      "sourceUrl": "https://www.shanghai.gov.cn/nw9820/20200906/0001-9820_1401251.html",
+      "quality": "official",
+      "note": "机场通航锚点；不代表机场周边 POI 的历史数量。"
+    },
+    {
+      "id": "sh-maglev-2002",
+      "year": 2002,
+      "name": "上海磁浮示范运营线",
+      "category": "transport",
+      "sourceName": "上海市人民政府：上海磁浮通过国家竣工验收正式投入运营",
+      "sourceUrl": "https://www.shanghai.gov.cn/nw9822/20200906/0001-9822_154421.html",
+      "quality": "official",
+      "note": "线路级锚点；不代表沿线 POI 的历史数量。"
+    },
+    {
+      "id": "sh-expo-2010",
+      "year": 2010,
+      "name": "上海世博会园区 / 中国馆",
+      "category": "landmark",
+      "sourceName": "上海市人民政府",
+      "sourceUrl": "https://www.shanghai.gov.cn/",
+      "quality": "official",
+      "note": "事件/园区锚点；不代表周边 POI 的历史数量。"
+    },
+    {
+      "id": "sh-shanghai-tower-2016",
+      "year": 2016,
+      "name": "上海中心大厦",
+      "category": "landmark",
+      "sourceName": "上海中心大厦",
+      "sourceUrl": "https://www.shanghaitower.com/",
+      "quality": "official",
+      "note": "地标锚点；不代表周边 POI 的历史数量。"
+    },
+    {
+      "id": "sh-disney-2016",
+      "year": 2016,
+      "name": "上海迪士尼乐园",
+      "category": "landmark",
+      "sourceName": "上海迪士尼度假区",
+      "sourceUrl": "https://www.shanghaidisneyresort.com/",
+      "quality": "official",
+      "note": "地标锚点；不代表周边 POI 的历史数量。"
+    },
+    {
+      "id": "sh-lingang-2019",
+      "year": 2019,
+      "name": "临港新片区",
+      "category": "policy",
+      "sourceName": "中国（上海）自由贸易试验区临港新片区",
+      "sourceUrl": "https://www.lingang.gov.cn/",
+      "quality": "official",
+      "note": "政策/区域锚点；不代表周边 POI 的历史数量。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "sh-yearbook-2025",
+      "name": "上海统计年鉴2025",
+      "url": "https://tjj.sh.gov.cn/tjnj/20260302/ab5e54f645fd4184b9e9c3aeef8a1c6c.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "sh-bulletin-2025",
+      "name": "2025年上海市国民经济和社会发展统计公报",
+      "url": "https://tjj.sh.gov.cn/tjgb/20260330/e0772941e8e041eaaad2df850b44ef98.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "sh-yearbook-2021",
+      "name": "上海统计年鉴2021",
+      "url": "https://tjj.sh.gov.cn/tjnj/20220309/0e01088a76754b448de6d608c42dad0f.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "sh-pudong",
+      "name": "上海市人民政府：浦东新区",
+      "url": "https://www.shanghai.gov.cn/pudong/index.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "sh-metro1",
+      "name": "上海市人民政府：18号线二期开通（回顾1号线）",
+      "url": "https://www.shanghai.gov.cn/nw17239/20260119/3d0f7925181544e589f8894a94b787f7.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "sh-airport",
+      "name": "上海机场（集团）有限公司",
+      "url": "https://www.shanghai.gov.cn/nw9820/20200906/0001-9820_1401251.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "sh-expo",
+      "name": "上海市人民政府：上海世博会中国馆新闻发布会",
+      "url": "https://www.shanghai.gov.cn/nw9822/20200906/0001-9822_447147.html",
+      "retrievedAt": "2026-11-07"
+    },
+    {
+      "id": "sh-lingang",
+      "name": "中国（上海）自由贸易试验区临港新片区",
+      "url": "https://www.lingang.gov.cn/",
+      "retrievedAt": "2026-11-07"
+    }
+  ],
+  "disclaimers": [
+    "阶段划分为研究性叙事分段，不是官方历史分期。",
+    "历史 POI 锚点仅覆盖有公开日期的地标/线路/机场/大学等，不代表完整 POI 数量，也不代表周边 POI 的历史数量。",
+    "事件标注只陈述公开事实与统计数值，不表示因果关系。",
+    "历史数据止于 2025 年，不做 2026 年以后的外推。"
+  ]
+}
